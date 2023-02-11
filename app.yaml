@@ -16,7 +16,6 @@ env_variables:
 
 # Specify the network settings for the application
 network:
-  forward_cookies: true
   instance_tag: art-generator
 
 # Specify the resources required by the application
