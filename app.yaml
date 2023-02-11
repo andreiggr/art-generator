@@ -7,9 +7,6 @@ entrypoint: node main.js
 # Specify the service name for the application
 service: art-generator
 
-# Specify the version of the application
-version: dev
-
 # Specify the environment variables for the application
 env_variables:
   NODE_ENV: production
