@@ -1,0 +1,26 @@
+runtime: nodejs
+env: flex
+
+# Specify the entry point for the application
+entrypoint: node main.js
+
+# Specify the service name for the application
+service: art-generator
+
+# Specify the version of the application
+version: dev
+
+# Specify the environment variables for the application
+env_variables:
+  NODE_ENV: production
+
+# Specify the network settings for the application
+network:
+  forward_cookies: true
+  instance_tag: art-generator
+
+# Specify the resources required by the application
+resources:
+  cpu: 1
+  memory_gb: 0.5
+  disk_size_gb: 10
