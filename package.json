@@ -2,8 +2,7 @@
     "name": "art-generator-bundle",
     "version": "1.0.0",
     "scripts": {
-        "start": "concurrently \"cd client && npm install && npm run dev\" \"cd server && npm install && npm run start\"",
-        "postinstall": "npm install"
+        "start": "concurrently \"cd client && npm install && npm run dev\" \"cd server && npm install && npm run start\""
     },
     "dependencies": {
         "concurrently": "7.6.0"
