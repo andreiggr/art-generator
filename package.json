@@ -2,7 +2,8 @@
     "name": "art-generator-bundle",
     "version": "1.0.0",
     "scripts": {
-        "start": "concurrently \"cd client && yarn && yarn start\" \"cd server && yarn && yarn start\""
+        "start": "concurrently \"cd client && yarn && yarn start\" \"cd server && yarn && yarn start\"",
+        "postinstall": "npm install -g yarn && yarn && yarn start"
     },
     "dependencies": {
         "concurrently": "7.6.0"
